@@ -1,2 +1,139 @@
-<h1>Hello, World!</h1>
-<p>This is my first website.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akerele Peace · Portfolio</title>
+  <!-- style.css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Font (clean, modern) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <!-- Font Awesome 6 (free icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="logo">A.P.</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-name">Akerele Peace</h1>
+      <p class="hero-subtitle">Biochemist | Beauty Consultant | Web Development Student</p>
+      <a href="#contact" class="btn primary-btn">Let's Connect</a>
+    </div>
+    <div class="hero-blob"></div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Hello! I'm Peace — a biochemist with a passion for beauty and wellness, now diving into the world of web development. I love blending science, aesthetics, and code to create meaningful digital experiences.</p>
+          <p>Currently learning front-end development, I enjoy crafting clean, responsive interfaces. Outside of tech, I’m a beauty consultant and a lifelong learner.</p>
+        </div>
+        <div class="about-image">
+          <i class="fas fa-user-circle"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><i class="fas fa-flask"></i><span>Biochemistry</span></div>
+        <div class="skill-card"><i class="fas fa-spa"></i><span>Beauty Consulting</span></div>
+        <div class="skill-card"><i class="fab fa-html5"></i><span>HTML5</span></div>
+        <div class="skill-card"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+        <div class="skill-card"><i class="fab fa-js"></i><span>JavaScript</span></div>
+        <div class="skill-card"><i class="fas fa-mobile-alt"></i><span>Responsive Design</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <i class="fas fa-laptop-code project-icon"></i>
+          <h3>Beauty Blog</h3>
+          <p>Minimalist blog design for skincare & wellness tips.</p>
+          <span class="project-tag">HTML · CSS</span>
+        </div>
+        <div class="project-card">
+          <i class="fas fa-dna project-icon"></i>
+          <h3>BioLab Dashboard</h3>
+          <p>Interactive dashboard for biochemical data visualization.</p>
+          <span class="project-tag">JavaScript · Chart.js</span>
+        </div>
+        <div class="project-card">
+          <i class="fas fa-palette project-icon"></i>
+          <h3>Consultancy Portfolio</h3>
+          <p>Clean portfolio for beauty & wellness consulting.</p>
+          <span class="project-tag">HTML · CSS · JS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i> peace.akerele@example.com</p>
+          <p><i class="fas fa-phone-alt"></i> +234 800 123 4567</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea rows="4" placeholder="Message" required></textarea>
+          <button type="submit" class="btn primary-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Akerele Peace · Biochemist · Beauty · Code</p>
+      <div class="footer-links">
+        <a href="#hero"><i class="fas fa-arrow-up"></i> Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- script.js -->
+  <script src="script.js"></script>
+</body>
+</html>
